@@ -1,0 +1,106 @@
+.top {
+  display: flex;
+  background-color: rgb(197, 66, 66);
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+  position: fixed;
+  top: -1px;
+  margin: 0;
+}
+.left {
+  display: flex;
+  width: 20%;
+  height: 600px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+
+.mid-fixed-position {
+  position: fixed;
+  top: 150px;
+  left: 25px;
+  margin: 0px 200px 0px 0px;
+}
+.right {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 150px;
+  top: 100000px;
+}
+.mid {
+  width: 1780px;
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  top: 79px;
+}
+.mid p {
+  padding: 5px 10px 5px 10px;
+}
+.ok {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.ko {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.con {
+  width: 360px;
+  height: 200px;
+  background-color: black;
+  margin: 30px;
+}
+.kol img {
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.til {
+  display: flex;
+  flex-direction: column;
+}
+.mid p:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+.kol {
+  display: flex;
+  flex-direction: row;
+}
+.kol p {
+  margin-left: 20px;
+}
+.in {
+  display: flex;
+  position: absolute;
+}
+.side-bar-element {
+  display: flex;
+  width: 200px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+.side-bar-element img {
+  margin: 0px 10px 0px 0px;
+}
+.side-bar-element:hover {
+  background-color: rgb(240, 240, 240);
+  border-radius: 15px;
+}
+.side-bar-element p {
+  margin: 0;
+  padding: 5px 10px 5px 10px;
+}
