@@ -1,6 +1,6 @@
 .top {
   display: flex;
-  background-color: rgb(197, 66, 66);
+  background-color: beige;
   width: 100%;
   height: 80px;
   justify-content: space-between;
@@ -35,7 +35,7 @@
 .mid {
   width: 1780px;
   height: 50px;
-  background-color: pink;
+  background-color: rgb(199, 146, 155);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -45,6 +45,7 @@
 }
 .mid p {
   padding: 5px 10px 5px 10px;
+  z-index: 111;
 }
 .ok {
   display: flex;
@@ -75,6 +76,7 @@
 .mid p:hover {
   background-color: grey;
   border-radius: 10px;
+  cursor: pointer;
 }
 .kol {
   display: flex;
